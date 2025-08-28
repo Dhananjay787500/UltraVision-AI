@@ -30,7 +30,7 @@ logger = logging.getLogger(__name__)
 
 # Page config
 st.set_page_config(
-    page_title="AI Video Upscaler",
+    page_title="UltraVision-AI",
     page_icon="🎥",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -137,7 +137,7 @@ def process_video(
 
 def main():
     """Main Streamlit application."""
-    st.title("🎥 AI Video Upscaler")
+    st.title("🎥 UltraVision-AI")
     st.caption("Enhance and upscale your videos using AI")
     
     # Sidebar
@@ -294,7 +294,7 @@ def main():
     st.markdown("---")
     st.markdown(
         "<div style='text-align: center; color: #666;'>"
-        "<p>🎥 AI Video Upscaler v0.1.0 | "
+        "<p>🎥 UltraVision-AI v0.1.0 | "
         "<a href='https://github.com/yourusername/ai-video-upscaler' target='_blank'>GitHub</a> | "
         "<a href='https://github.com/yourusername/ai-video-upscaler/issues' target='_blank'>Report Issues</a></p>"
         "</div>",
@@ -313,3 +313,4 @@ if __name__ == "__main__":
     
     # Run the app
     main()
+
