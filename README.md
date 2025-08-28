@@ -1,4 +1,4 @@
-# 🎥 AI Video Upscaler
+# 🎥 UltraVision-AI
 
 A powerful, user-friendly application for enhancing and upscaling videos using AI. This tool leverages state-of-the-art deep learning models to upscale videos to higher resolutions (up to 8K) while improving quality and reducing noise.
 
@@ -186,4 +186,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 <div align="center">
   Made with ❤️ by Your Name | <a href="https://github.com/yourusername/ai-video-upscaler">GitHub</a>
 </div>
+
 
