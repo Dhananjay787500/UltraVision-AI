@@ -12,10 +12,10 @@ from PIL import Image
 # Add the project root to the path
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-from video_upscaler.config import config
-from video_upscaler.models import RealESRGANModel
-from video_upscaler.pipeline.upscaler import VideoUpscaler
-from video_upscaler.pipeline.io import get_video_info
+from UltraVision_AI.config import config
+from UltraVision_AI.models import RealESRGANModel
+from UltraVision_AI.pipeline.upscaler import VideoUpscaler
+from UltraVision_AI.pipeline.io import get_video_info
 
 # Configure logging
 logging.basicConfig(
@@ -313,5 +313,3 @@ if __name__ == "__main__":
     
     # Run the app
     main()
-
-
