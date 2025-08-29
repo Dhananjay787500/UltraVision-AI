@@ -10,9 +10,9 @@ with open('README.md', 'r', encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name="ai-video-upscaler",
+    name="UltraVision-AI",
     version="0.1.0",
-    packages=find_packages(include=['video_upscaler', 'video_upscaler.*']),
+    packages=find_packages(include=['UltraVision_AI', 'UltraVision_AI.*']),
     install_requires=read_requirements(),
     python_requires='>=3.8',
     
@@ -22,7 +22,7 @@ setup(
     description="AI-powered video upscaling tool using Real-ESRGAN",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/ai-video-upscaler",
+    url="https://github.com/yourusername/UltraVision-AI",
     
     # Classifiers
     classifiers=[
@@ -41,14 +41,14 @@ setup(
     # Entry points for command-line tools
     entry_points={
         'console_scripts': [
-            'video-upscaler=video_upscaler.cli:main',
+            'ultra-vision=UltraVision_AI.cli:main',
         ],
     },
     
     # Include non-Python files
     include_package_data=True,
     package_data={
-        'video_upscaler': ['*.yaml', '*.json'],
+        'UltraVision_AI': ['*.yaml', '*.json'],
     },
     
     # Dependencies for development
