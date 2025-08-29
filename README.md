@@ -1,4 +1,4 @@
-# 🎥 UltraVision-AI
+# 🎥 AI Video Upscaler
 
 A powerful, user-friendly application for enhancing and upscaling videos using AI. This tool leverages state-of-the-art deep learning models to upscale videos to higher resolutions (up to 8K) while improving quality and reducing noise.
 
@@ -25,10 +25,9 @@ A powerful, user-friendly application for enhancing and upscaling videos using A
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/ai-video-upscaler.git
-   cd ai-video-upscaler
+   git clone https://github.com/Dhananjay787500/UltraVision-AI.git
+   cd UltraVision-AI
    ```
-
 2. Create and activate a virtual environment (recommended):
    ```bash
    # Windows
@@ -56,7 +55,7 @@ A powerful, user-friendly application for enhancing and upscaling videos using A
 
 Run the Streamlit web interface:
 ```bash
-streamlit run video_upscaler/ui/streamlit_app.py
+streamlit run UltraVision_AI/ui/streamlit_app.py
 ```
 
 Then open your web browser to `http://localhost:8501`
@@ -65,12 +64,12 @@ Then open your web browser to `http://localhost:8501`
 
 Process a single video:
 ```bash
-python -m video_upscaler.cli --input input.mp4 --resolution 4k --model realesrgan-x4plus --output output.mp4
+python -m UltraVision_AI.cli --input input.mp4 --resolution 4k --model realesrgan-x4plus --output output.mp4
 ```
 
 Process all videos in a directory:
 ```bash
-python -m video_upscaler.cli --input-dir ./input_videos --resolution 4k --model realesrgan-x4plus --output-dir ./output_videos
+python -m UltraVision_AI.cli --input-dir ./input_videos --resolution 4k --model realesrgan-x4plus --output-dir ./output_videos
 ```
 
 ### CLI Options
@@ -106,7 +105,7 @@ Models will be automatically downloaded on first use and cached for future use.
 ## 🏗️ Project Structure
 
 ```
-video_upscaler/
+UltraVision_AI/
 ├── config.py             # Application configuration
 ├── models/               # AI model implementations
 │   ├── __init__.py
@@ -184,7 +183,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 <div align="center">
-  Made with ❤️ by Your Name | <a href="https://github.com/yourusername/ai-video-upscaler">GitHub</a>
+  Made with ❤️ by Dhananjay Kamble | <a href="https://github.com/Dhananjay787500/UltraVision-AI">GitHub</a>
 </div>
-
-
