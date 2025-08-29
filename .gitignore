@@ -114,7 +114,7 @@ dmypy.json
 .DS_Store
 
 # Project specific
-video_upscaler/models/pretrained_models/
+UltraVision_AI/models/pretrained_models/
 output/
 temp/
 logs/
