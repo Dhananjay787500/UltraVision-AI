@@ -295,8 +295,8 @@ def main():
     st.markdown(
         "<div style='text-align: center; color: #666;'>"
         "<p>🎥 UltraVision-AI v0.1.0 | "
-        "<a href='https://github.com/yourusername/ai-video-upscaler' target='_blank'>GitHub</a> | "
-        "<a href='https://github.com/yourusername/ai-video-upscaler/issues' target='_blank'>Report Issues</a></p>"
+        "<a href='https://github.com/Dhananjay787500/UltraVision-AI' target='_blank'>GitHub</a> | "
+        "<a href='https://github.com/Dhananjay787500/UltraVision-AI/issues' target='_blank'>Report Issues</a></p>"
         "</div>",
         unsafe_allow_html=True
     )
@@ -313,4 +313,5 @@ if __name__ == "__main__":
     
     # Run the app
     main()
+
 
