@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Command-line interface for the AI Video Upscaler.
+Command-line interface for the UltraVision-AI.
 """
 import os
 import sys
@@ -13,8 +13,8 @@ from tqdm import tqdm
 # Add the project root to the path
 sys.path.insert(0, str(Path(__file__).parent))
 
-from video_upscaler.config import config
-from video_upscaler.pipeline.upscaler import VideoUpscaler
+from UltraVision_AI.config import config
+from UltraVision_AI.pipeline.upscaler import VideoUpscaler
 
 # Configure logging
 logging.basicConfig(
